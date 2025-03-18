@@ -101,6 +101,11 @@ else
 // Wann kann ich den Ternary Operator nutzen?
 // => Wenn die Ausgabe nur 1 Befehl hat
 string x = (z1 > z2) ? "z1 ist größer als z2" : "z1 ist kleiner als z2";
+
+// Geht nur bei 1 Command
+if (z1 == z2)
+    Console.WriteLine("z1 ist gleich wie z2");
+
 Console.WriteLine(x);
 
 #endregion
