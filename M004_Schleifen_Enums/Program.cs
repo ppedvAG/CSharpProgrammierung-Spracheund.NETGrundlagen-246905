@@ -66,3 +66,89 @@ while (a < b)
 }
 
 #endregion
+
+#region Enums
+
+// Enum
+// Liste von Konstanten (Werten die nicht veränderbar sind)
+// Eigener Datentyp
+// Jedes Enum hat ein Numerischen Wert (standard ist bei 0) kann man beliebig einstellen
+Wochentag wt = Wochentag.Di;
+if(wt == Wochentag.Di)
+{
+    Console.WriteLine("Jetzt ist Dienstag immer genau ein Zustand");
+}
+
+// Die Enum Klasse => Enum Wochentag in variable speichern
+Wochentag[] tage = Enum.GetValues<Wochentag>(); // Ich speicher mir alle Wochentage in "tage" variable rein (array)
+foreach(var w in tage )
+{
+    Console.WriteLine($"Enum Wochentag: {w}");
+    Console.WriteLine($"Enum Wochentag (int):  {(int)w}");
+}
+
+// Enum.Parse: Text zu einem Enumwert konvertieren
+Console.WriteLine(Enum.Parse<Wochentag>("Mo"));
+Console.WriteLine(Enum.Parse<Wochentag>("4"));
+
+
+#endregion
+
+#region Switch
+
+// Switch
+// prüft eine Variable auf mehrere Werte (Möglichkeiten)
+Wochentag t = Wochentag.Fr;
+
+switch(t)
+{
+    case Wochentag.Mo:
+    case Wochentag.Di:
+    case Wochentag.Mi:
+    case Wochentag.Do:
+    case Wochentag.Fr:
+        Console.WriteLine("Wochentag");
+        break;
+    case Wochentag.Sa:
+    case Wochentag.So:
+        Console.WriteLine("Wochenende");
+        break;
+    default:
+        Console.WriteLine("Fehler");
+        break;
+}
+
+// In einer If-Abfrage
+if(t == Wochentag.Mo || t == Wochentag.Di || t == Wochentag.Mi || t == Wochentag.Do || t == Wochentag.Fr)
+{
+    Console.WriteLine("Wochentag");
+}
+else if (t == Wochentag.Sa || t == Wochentag.So)
+{
+    Console.WriteLine("Wochenenede");
+}
+else
+{
+    Console.WriteLine("Fehler!");
+}
+
+// Boolscher Switch
+switch(t)
+{
+    case >= Wochentag.Mo and <= Wochentag.Fr:
+        Console.WriteLine("Wochentag");
+        break;
+    case Wochentag.Sa or Wochentag.So:
+        Console.WriteLine("Wochenende");
+        break;
+    default:
+        Console.WriteLine("Fehler!");
+        break;
+}
+
+#endregion 
+
+enum Wochentag
+{
+    Mo = 1, Di, Mi, Do, Fr, Sa, So
+}
