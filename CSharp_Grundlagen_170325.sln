@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_Grundlagen_170325", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M002_Grundlagen", "M002_Grundlagen\M002_Grundlagen.csproj", "{96977302-7555-4889-988C-8A25D4D982C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M003_Arrays", "M003_Arrays\M003_Arrays.csproj", "{973F8DFC-2643-4C58-B79B-B1156DC6F4F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{96977302-7555-4889-988C-8A25D4D982C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96977302-7555-4889-988C-8A25D4D982C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96977302-7555-4889-988C-8A25D4D982C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{973F8DFC-2643-4C58-B79B-B1156DC6F4F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{973F8DFC-2643-4C58-B79B-B1156DC6F4F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{973F8DFC-2643-4C58-B79B-B1156DC6F4F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{973F8DFC-2643-4C58-B79B-B1156DC6F4F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
