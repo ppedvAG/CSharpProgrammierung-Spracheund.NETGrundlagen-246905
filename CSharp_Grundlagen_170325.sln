@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M003_Arrays", "M003_Arrays\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M004_Schleifen_Enums", "M004_Schleifen_Enums\M004_Schleifen_Enums.csproj", "{2CF12940-A752-4582-B9A7-4246FC899728}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shift_KEY", "Shift_KEY\Shift_KEY.csproj", "{C7948BDE-E2E9-46AF-BD8C-648DD2EB7329}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{2CF12940-A752-4582-B9A7-4246FC899728}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CF12940-A752-4582-B9A7-4246FC899728}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CF12940-A752-4582-B9A7-4246FC899728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7948BDE-E2E9-46AF-BD8C-648DD2EB7329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7948BDE-E2E9-46AF-BD8C-648DD2EB7329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7948BDE-E2E9-46AF-BD8C-648DD2EB7329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7948BDE-E2E9-46AF-BD8C-648DD2EB7329}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
