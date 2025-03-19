@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M004_Schleifen_Enums", "M00
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shift_KEY", "Shift_KEY\Shift_KEY.csproj", "{C7948BDE-E2E9-46AF-BD8C-648DD2EB7329}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M005_Funktionen", "M005_Funktionen\M005_Funktionen.csproj", "{A7193344-1909-43B2-987A-A238D58B7AB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{C7948BDE-E2E9-46AF-BD8C-648DD2EB7329}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7948BDE-E2E9-46AF-BD8C-648DD2EB7329}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7948BDE-E2E9-46AF-BD8C-648DD2EB7329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7193344-1909-43B2-987A-A238D58B7AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7193344-1909-43B2-987A-A238D58B7AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7193344-1909-43B2-987A-A238D58B7AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7193344-1909-43B2-987A-A238D58B7AB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
