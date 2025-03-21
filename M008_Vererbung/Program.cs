@@ -10,6 +10,19 @@ public class Program
         Mensch m = new Mensch(10,"Max");
         m.Ausgeben();
 
+        // Protected Private
+        //ProtectedPrivate ppr = new ProtectedPrivate();
+        //ppr.Anzeigen();
+
+        Ableitung ab = new Ableitung();
+        ab.Test(); // Zugriff
+
+        // Protected Internal
+        ProtectedInternal ppi = new ProtectedInternal();
+        ppi.SageHallo(); // => Basisklassen aufruf ist möglich
+
+        Angestellt a = new Angestellt();
+        a.Ausgeben(); // => Ausgabe aus der abgeleiteten Funktioniert auch!
     }
 }
 
@@ -50,8 +63,8 @@ public class Kind : Mensch
     {
     }
 
-    public override string Ausgeben()
-    {
-        return "bla bla bla";
-    }
+    //public override string Ausgeben()
+    //{
+    //    return "bla bla bla";
+    //}
 }
