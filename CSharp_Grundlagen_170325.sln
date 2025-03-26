@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M012_Linq_Lambda", "M012_Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M012_Lamba_Übung", "M012_Lamba_Übung\M012_Lamba_Übung.csproj", "{441629F7-0FD3-4D13-A7A8-5CAAB5294B9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M013_UnitTest", "M013_UnitTest\M013_UnitTest.csproj", "{DE9E73B4-9D31-4C91-A355-7B74450F3613}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M013_Exceptions", "M013_Exceptions\M013_Exceptions.csproj", "{B4F95AFA-CE86-43C5-BD0C-7FE2F7AA3089}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +103,14 @@ Global
 		{441629F7-0FD3-4D13-A7A8-5CAAB5294B9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{441629F7-0FD3-4D13-A7A8-5CAAB5294B9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{441629F7-0FD3-4D13-A7A8-5CAAB5294B9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE9E73B4-9D31-4C91-A355-7B74450F3613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE9E73B4-9D31-4C91-A355-7B74450F3613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE9E73B4-9D31-4C91-A355-7B74450F3613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE9E73B4-9D31-4C91-A355-7B74450F3613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4F95AFA-CE86-43C5-BD0C-7FE2F7AA3089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F95AFA-CE86-43C5-BD0C-7FE2F7AA3089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F95AFA-CE86-43C5-BD0C-7FE2F7AA3089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F95AFA-CE86-43C5-BD0C-7FE2F7AA3089}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

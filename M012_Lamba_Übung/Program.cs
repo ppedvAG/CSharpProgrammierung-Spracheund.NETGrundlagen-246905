@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Text.Json;
 
-namespace M012_Linq_Lamba_Uebung;
+namespace M012_Lamba_Uebung;
 
 internal class Program
 {
@@ -15,8 +15,13 @@ internal class Program
         //Hier eigenen Code schreiben
         personen.Where(e => e.Alter >= 60);
 
-        // 11
-        personen.Where(e => e.Alter > personen.Average(e => e.Alter));
+        List<Person> test = personen.Where(e => e.Vorname.Length > 10).ToList();
+
+        List<Person> test1 = personen.Where(e => e.Hobbies.Count == 2).ToList();
+        personen.Where(e => e.Hobbies.Count == 2);
+        test1.Count();
+
+
     }
 }
 
