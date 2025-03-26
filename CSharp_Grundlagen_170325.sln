@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M013_UnitTest", "M013_UnitT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M013_Exceptions", "M013_Exceptions\M013_Exceptions.csproj", "{B4F95AFA-CE86-43C5-BD0C-7FE2F7AA3089}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M014_Dateien", "M014_Dateien\M014_Dateien.csproj", "{79321437-C123-4B70-8006-C0920DE502DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{B4F95AFA-CE86-43C5-BD0C-7FE2F7AA3089}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4F95AFA-CE86-43C5-BD0C-7FE2F7AA3089}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4F95AFA-CE86-43C5-BD0C-7FE2F7AA3089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79321437-C123-4B70-8006-C0920DE502DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79321437-C123-4B70-8006-C0920DE502DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79321437-C123-4B70-8006-C0920DE502DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79321437-C123-4B70-8006-C0920DE502DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
